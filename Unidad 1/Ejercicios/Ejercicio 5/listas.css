@@ -10,7 +10,6 @@ ul.redes li {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12px;
 	font-style: italic;
-	/* Estilos de li para cumplir las especifiaciones */
 	color: #442A5D;
 }
 p.titulo {
@@ -28,21 +27,16 @@ p.titulo {
 	vertical-align: middle;
 }
 
-p{
-	background-color: bisque;
-	color: #8b6644;
-}
 p::first-letter{
 	font-weight: bold;
 	font-size: large;
 }
 
-li{
-	font-style: italic;
-	color: rgb(51, 35, 65);
-}
-
-{ /* Hay que conseguir que este estilo se aplique al posicionarse sobre el elemento con contenido LMSGI */
+#otraasignatura:hover{ 
 	font-weight: bold;
 	color: #FFF;
+}
+
+li{
+	list-style-type: circle ;
 }
