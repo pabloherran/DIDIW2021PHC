@@ -1,0 +1,201 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todo{
+    display: flex;
+
+}
+
+.logo{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo a:visited{
+    color: white;
+}
+
+.menu{
+    text-align: center;
+    display: inline-block;
+    position: static;
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(71, 218, 218);
+    font-size: large;
+    color: white;
+    padding: 5px;
+    margin: -0.60em;
+}
+
+.cuerpo {
+    padding: 1%;
+    width: 85%;
+    justify-content: center;
+}
+
+.opcion{
+    padding: 5px;
+}
+
+.opcion:hover{
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px;
+    color: rgb(71, 218, 218);
+    box-shadow: white;
+    box-shadow:  2px 2px rgb(71, 218, 218), 3px 3px white ;
+    transition: .2s; 
+}
+
+.cuadrado{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.noticias{
+    margin: 0 auto;
+    width: 800px;
+    text-align: justify ;
+    display: grid;
+    grid-gap: 8em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 350px);
+
+}
+
+.fa-times-circle:hover{
+    color: teal;
+    transition: .5s; 
+}
+
+.fab:hover{
+    size: 1.5em;
+    transition: .5s; 
+}
+
+.fa-facebook-square{
+    color: white;
+}
+.fa-facebook-square:hover{
+    color: teal;
+}
+
+.fa-twitter-square{
+    color: white;
+}
+.fa-twitter-square:hover{
+    color: teal;
+}
+
+.fa-instagram-square{
+    color: white;
+}
+.fa-instagram-square:hover{
+    color: teal;
+}
+
+.fa-linkedin{
+    color: white;
+}
+.fa-linkedin:hover{
+    color: teal;
+}
+
+.fotos{
+    width: auto;
+    height: 200px;
+    padding-top: 10px;
+}
+
+#foto1{
+    background-image: url("Imagenes/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto2{
+    background-image: url("Imagenes/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto3{
+    background-image: url("Imagenes/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto4{
+    background-image: url("Imagenes/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subtitulo{
+    color: rgb(71, 218, 218);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto{
+    font-size: 0.8em;
+    color: grey;
+}
+
+.texto h2{
+    font-size: 2em;
+}
+
+.izq{
+    float: left;
+    color:  rgb(71, 218, 218);
+}
+
+.drch{
+    float: right;
+    color:  rgb(71, 218, 218);
+}
+
+.parrafoprueba{
+    margin-top: 50px;
+    font-size: small ;
+    text-align: justify;
+    padding: 5%;
+}
+
+.fa-search{
+    color: rgb(71, 218, 218);
+    padding-right: 1em;
+}
+
+#busqueda{
+    color:gray;
+    padding-top: 0.6%;
+    padding-left: 10px;
+    text-align: left;
+    margin: 1% auto 1% auto;
+    border: 1px solid rgb(71, 218, 218);
+    width: 25%;
+    height: 3%;
+}
+
+input{
+    border: 1px solid rgb(71, 218, 218);
+    width: 25%;
+    height: 3%;
+}
+
+.linea{
+    margin-top: 0%;
+    margin-bottom: 2em;
+    border: 0.1em solid  rgb(71, 218, 218);
+    background-color:  rgb(71, 218, 218);
+}
+
+hr{
+    border: 0.1em solid  rgb(185, 185, 185);
+    background-color:  rgb(185, 185, 185);
+}
