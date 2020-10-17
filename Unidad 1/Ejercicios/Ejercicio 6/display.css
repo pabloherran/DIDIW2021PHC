@@ -1,0 +1,36 @@
+*{ /* Todos los elementos de la página tienen borde */
+    border: thin solid #442A5D;
+}
+
+#negrita{
+    display: block;
+}
+
+.bloqueenlinea{
+    display: inline;
+}
+
+.parrafolinea{
+    display: inline;
+}
+
+.parrafolista{
+    list-style: square;
+    display: list-item;
+    margin-left: 5%;
+}
+
+.parrafonone{
+    display: none;
+}
+
+.pading a{
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+.parrafodesplazado{
+    position: relative;
+    top: 20%;
+    left: -15%;
+}
