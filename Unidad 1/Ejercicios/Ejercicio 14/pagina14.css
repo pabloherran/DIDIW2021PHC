@@ -1,0 +1,30 @@
+.grande{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    border: 1px solid black;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
+.caja{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.grande div:nth-child(1n+4){
+    background-color: green;
+}
+
+.grande div:nth-child(1n+7){
+    background-color: blue;
+}
+
+.grande div:nth-child(even){
+    visibility: hidden;
+}
+
