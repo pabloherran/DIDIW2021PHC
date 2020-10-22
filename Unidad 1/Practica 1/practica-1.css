@@ -22,7 +22,7 @@
     display: inline-block;
     position: static;
     width: 15%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(71, 218, 218);
     font-size: large;
     color: white;
@@ -34,6 +34,7 @@
     padding: 1%;
     width: 85%;
     justify-content: center;
+    /*border: 1px solid  rgb(71, 218, 218);*/
 }
 
 .opcion{
@@ -157,6 +158,17 @@
 .drch{
     float: right;
     color:  rgb(71, 218, 218);
+}
+
+
+.izqbajo{
+    float: left;
+    color:  rgb(185, 185, 185);
+}
+
+.drchbajo{
+    float: right;
+    color: rgb(185, 185, 185);
 }
 
 .parrafoprueba{
