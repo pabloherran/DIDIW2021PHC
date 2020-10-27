@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.primero{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color:darkseagreen;
+    height: 300px;
+    text-align: center;
+    color: white;
+    
+}
+
+.objeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    height: 50px;
+    width: 300px;
+}
+
+.segundo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: darkseagreen;
+    height: 300px;
+    flex-direction: row-reverse;
+    text-align: center;
+    color: white;
+
+}
+
+.objeto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    height: 50px;
+    width: 300px;
+}

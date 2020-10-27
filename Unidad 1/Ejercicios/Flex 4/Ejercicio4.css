@@ -1,0 +1,80 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: palegreen;
+    margin: 25px auto;
+    width: 1300px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.main1{
+    background-color: gray;
+    width: 1250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.main2{
+    margin: 25px auto;
+    background-color: gray;
+    width: 1250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.main3{
+    margin: 25px auto;
+    background-color: gray;
+    width: 1250px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objeto{
+    background-color: orange;
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main1 .objeto:nth-child(3){
+    align-self: flex-start;
+}
+
+.main2 .objeto:nth-child(3){
+    align-self: flex-end;
+}
+
+.main3 .objeto:nth-child(1){
+    flex-basis: 70px;
+}
+
+.main3 .objeto:nth-child(2){
+    flex-basis: 45px;
+}
+
+.main3 .objeto:nth-child(3){
+    flex-basis: 80px;
+}
+
+.main3 .objeto:nth-child(4){
+    flex-basis: 95px;
+}
+
+.main3 .objeto:nth-child(5){
+    flex-basis: 45px;
+}
