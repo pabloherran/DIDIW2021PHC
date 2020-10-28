@@ -1,0 +1,99 @@
+body{
+    height: 90vh;
+}
+
+header{
+    background-color: rgb(47, 61, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 10%;
+    padding: 0 30px;
+}
+
+.opciones-header{
+    background-color: rgb(192, 59, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.opciones-header .opcion{
+   width: 100px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.container:nth-child(1){
+    padding: 20px;
+    width: 85%;
+    border-bottom: 1px solid rgb(47, 61, 75);
+}
+
+.container:nth-child(2){
+    padding: 20px;
+    width: 85%;
+    border-bottom: 1px solid rgb(47, 61, 75);
+}
+
+.container:nth-child(3){
+    color: white;
+    width: 100%;
+    background-color: orangered;
+}
+
+.container:nth-child(3) .foto:nth-child(1){
+
+}
+
+
+
+
+
+
+footer{
+    background-color: rgb(47, 61, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 10%;
+    padding: 0 30px;
+}
+
+.opciones-footer{
+    background-color: rgb(192, 59, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.opciones-footer .opcion{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer-derecha{
+     display: flex;
+
+     background-color: orange;
+     color: white;
+ }
