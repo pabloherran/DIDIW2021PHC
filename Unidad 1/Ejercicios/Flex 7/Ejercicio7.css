@@ -2,6 +2,8 @@ body{
     height: 90vh;
 }
 
+
+/*--------------HEADER--------------*/
 header{
     background-color: rgb(47, 61, 75);
     display: flex;
@@ -30,7 +32,7 @@ header{
 
 
 
-
+/*--------------MAIN--------------*/
 
 main{
     display: flex;
@@ -51,19 +53,61 @@ main{
 }
 
 .container:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center ;
     color: white;
     width: 100%;
     background-color: orangered;
 }
 
-.container:nth-child(3) .foto:nth-child(1){
+.container:nth-child(3) .foto{
+    display: flex;
+    height: 40%;
+    width: 80%;
+    background-color: orange;
+}
 
+.container:nth-child(3) .foto:nth-child(1) .foto2{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    
+}
+
+.container:nth-child(3) .foto:nth-child(1) .foto2:nth-child(1){
+    height: 50%;
+    width: 50%;
+    justify-content: flex-start;
+    background-color: red;
+}
+
+.container:nth-child(3) .foto:nth-child(1) .foto2:nth-child(2){
+    height: 50%;
+    width: 50%;
+    align-self: flex-end;
+    background-color: red;
+}
+
+
+.container:nth-child(3) .foto:nth-child(2) .foto2:nth-child(1){
+    height: 50%;
+    width: 50%;
+    justify-content: flex-start;
+    background-color: red;
+}
+
+.container:nth-child(3) .foto:nth-child(2) .foto2:nth-child(2){
+    height: 50%;
+    width: 50%;
+    align-self: flex-end;
+    background-color: red;  
 }
 
 
 
-
-
+/*--------------FOOTER--------------*/
 
 footer{
     background-color: rgb(47, 61, 75);
@@ -92,8 +136,11 @@ footer{
  }
 
  .footer-derecha{
-     display: flex;
-
-     background-color: orange;
-     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: orange;
+    color: white;
  }
