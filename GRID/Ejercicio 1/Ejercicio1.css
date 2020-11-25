@@ -1,0 +1,26 @@
+h3{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+    grid-template-rows: repeat(3, 1fr) 2fr 2fr;
+    grid-template-columns: repeat(2, 1fr 2fr);
+}
+
+.obj{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.obj:nth-child(even){
+    background-color: rgb(228, 167, 37);
+}
+
+.obj:nth-child(odd){
+    background-color: grey;
+}
