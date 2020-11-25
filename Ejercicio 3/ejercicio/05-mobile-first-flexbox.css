@@ -59,3 +59,20 @@ div.container aside {
     width: 30%;
   }
 }
+
+@media all and (min-width: 768px){
+  div.container{
+    width: 100%;
+  }
+
+  div.container article {
+    width: 70%;
+    height: 30rem;
+    background-image: url("img/content-is-like-water-5.jpg");
+  }
+
+  div.container aside {
+    height: 20%;
+    width: 30%;
+  }
+}
