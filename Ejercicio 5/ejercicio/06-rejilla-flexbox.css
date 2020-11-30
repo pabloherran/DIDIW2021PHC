@@ -32,6 +32,7 @@ div {
 
     .element{
         width: calc(50% - 1em);
+        color: blue;
     }
 }
 
@@ -43,6 +44,7 @@ div {
 
     .element{
         width: calc(33% - 1em);
+        color: green;
     }
 }
 
@@ -54,5 +56,6 @@ div {
 
     .element{
         width: calc(16% - 1em);
+        color: red;
     }
 }
