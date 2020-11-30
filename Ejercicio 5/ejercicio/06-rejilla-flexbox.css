@@ -24,7 +24,7 @@ div {
     margin: 0.5em;
 }
 
-@media all and (min-width: 240px){
+@media all and (min-width: 768px){
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -36,7 +36,7 @@ div {
     }
 }
 
-@media all and (min-width: 768px){
+@media all and (min-width: 1024px){
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -48,7 +48,7 @@ div {
     }
 }
 
-@media all and (min-width: 1024px){
+@media all and (min-width: 1200px){
     .row{
         display: flex;
         flex-wrap: wrap;
