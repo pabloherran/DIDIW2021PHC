@@ -1,0 +1,106 @@
+*{
+    font-family: "Gabriola";
+    src: url("gabriola\ Font\ Download.ttf");
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100vw 100vh;
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-input a{
+    color: seashell;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: s;
+    background-color: #1f1f1f;  
+    width: 100%;
+    position: fixed;
+    color: seashell;
+    padding-top: 4px;
+    padding-right: 5px; 
+    border-bottom: 2px solid seashell;
+}
+    
+::placeholder{
+    background-color: (255, 245, 238, 0.274);
+}
+
+h1{
+    margin-left: 50px;
+}
+
+
+
+
+/*----------Desplazamiento del menu------------*/
+
+
+
+.container-menu nav ul li label:hover{
+    background-color: #1f1f1f;
+    border-left: 5px solid seashell;   
+}
+
+.container-menu nav ul li ul li{
+    display: block;
+    text-decoration: none;
+    padding:  10px 40px ;
+    color: seashell;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.container-menu label{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: seashell;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.contenedor-main{
+    position: absolute;
+    z-index: -1;
+    top: 44px;
+    background-color: #1f1f1f;
+    border: 2px solid seashell;
+    height: auto;
+    width: 58.5vw;
+    left: 20.75%;
+}
+
+.container-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+.container-input input{
+    margin-right: 20.5% ;
+    border-radius: 5px;
+    border-style:none ;
+    outline: 0px;
+    padding-left: 5px;
+    background-color: (255, 245, 238, 0.274);
+    color: #1f1f1f;
+}
+
+
+
+
+

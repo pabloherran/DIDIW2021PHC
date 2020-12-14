@@ -1,0 +1,25 @@
+.contenedor-main h1{
+    text-align: center;
+    font-size: 2em;
+    color: seashell;
+    padding-top: 20px;
+}
+
+.texto{
+    color: seashell;
+    text-align: justify;
+    padding: 20px 40px;
+}
+
+#capital::first-letter{
+    font-size: 2rem;
+    line-height: 15px;
+}
+
+.foto img{
+    float: right;
+    height: 360px;
+    width: 240px;
+    border: 4px double seashell;
+    margin: 40px;
+}

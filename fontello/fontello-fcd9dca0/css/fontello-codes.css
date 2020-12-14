@@ -1,0 +1,5 @@
+
+.icon-cancel-circled:before { content: '\2716'; } /* '✖' */
+.icon-search:before { content: '\e009'; } /* '' */
+.icon-menu:before { content: '\e0fe'; } /* '' */
+.icon-magic:before { content: '\f0d0'; } /* '' */

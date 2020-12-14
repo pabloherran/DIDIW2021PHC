@@ -1,0 +1,13 @@
+.contenedor-main ul li{
+    padding: 30px 40px;
+}
+
+.contenedor-main ul li a{
+    color: seashell;
+    text-decoration: none;
+}
+
+.contenedor-main ul{
+    list-style: none;
+    text-decoration: none;
+}

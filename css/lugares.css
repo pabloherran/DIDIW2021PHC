@@ -1,0 +1,135 @@
+.contenedor-main ul li{
+    padding: 30px 40px;
+}
+
+.contenedor-main ul li a{
+    color: seashell;
+    text-decoration: none;
+}
+
+.contenedor-main ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li > div{
+    position: relative;
+    width:426px;
+    height: 240px;
+    border: 4px double seashell;
+}
+
+li > div > a{
+    position: absolute;
+    top: 73.5%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.5em;
+    display: block;
+}
+
+.lugar_hogwarts{
+    background-image: url("../img/Lugares/LugaresMagicos/hogwarts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_callejondiagon{
+    background-image: url("../img/Lugares/LugaresMagicos/callejondiagon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_ministerio{
+    background-image: url("../img/Lugares/LugaresMagicos/ministerio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_callejonknockturn{
+    background-image: url("../img/Lugares/LugaresMagicos/callejonknockturn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_hogsmeade{
+    background-image: url("../img/Lugares/LugaresMagicos/hogsmeade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_lamadriguera{
+    background-image: url("../img/Lugares/LugaresMagicos/lamadriguera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_mansionmalfoy{
+    background-image: url("../img/Lugares/LugaresMagicos/mansionmalfoy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_godricshollow{
+    background-image: url("../img/Lugares/LugaresMagicos/godricshollow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_casalovegood{
+    background-image: url("../img/Lugares/LugaresMagicos/casalovegood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_hospital{
+    background-image: url("../img/Lugares/LugaresMagicos/sanmungo4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_privetdrive{
+    background-image: url("../img/Lugares/LugaresMuggles/privetdrive.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_mansionriddle{
+    background-image: url("../img/Lugares/LugaresMuggles/mansionryddle.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_grimauldplace{
+    background-image: url("../img/Lugares/LugaresMuggles/grimauldplace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_refugio{
+    background-image: url("../img/Lugares/LugaresMuggles/refugio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_pequeñohangleton{
+    background-image: url("../img/Lugares/LugaresMuggles/pequeñohangleton.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_hilandera{
+    background-image: url("../img/Lugares/LugaresMuggles/hilandera.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lugar_kingscross{
+    background-image: url("../img/Lugares/LugaresMuggles/KingsCross.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
