@@ -1,0 +1,56 @@
+.contenedor{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+}
+
+.cuadrado{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+    animation-name: cuadrado;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#parar:active{  
+    box-shadow: 5px 5px grey;
+    color: red;
+    transition-delay: 0.5;
+    transition-duration: 2;
+
+}
+
+
+@keyframes cuadrado{
+    0%{
+        transform: rotate(180deg);
+        background-color: yellow;
+    }
+    50%{
+        transform: rotate(270deg);
+        background-color: red;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: royalblue;
+    }
+    50%{
+        transform: rotate(270deg);
+        background-color: red;
+    }
+    0%{
+        transform: rotate(180deg);
+        background-color: yellow;
+    }
+}

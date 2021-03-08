@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Examen parcial 2ª Evaluación</title>
+	<link rel="stylesheet" href="estilos1.css" />
+
+</head>
+
+<body>
+	<!-- Contenedor principal -->
+	<main id="wrapper">
+		<!-- Subcabecera para incluir la imagen -->
+		<nav id="cabecera">
+			<picture>
+				<source 
+					media="(min-width:1200px)" 
+					sizes="70vw"
+					srcset="img/img_1200.jpg 1.5x,
+							img/img_1600.jpg 2x">
+				<source
+					media="(min-width:600px)"
+					sizes="(min-width:1000px) 80vw, 90vw"
+					srcset="img/img_800.jpg 2x, 
+							img/img_1200.jpg 2x, 
+							img/img_400.jpg ">
+				
+				<img src="img/img_800.png" alt="Imagen para navegadores antiguos">
+			</picture>
+			<!-- Aquí va la etiqueta picture -->
+			<!-- <img src="img/img_800.png" alt="Para navegadores antiguos" /> -->
+		</nav>
+
+		<!-- Sección para contenidos audiovisuales -->
+		<section id="multimedia">
+			<!-- Elemento donde se incluyen el audio -->
+			<article id="audio" class="caja">
+				<audio src="audio/fondo.ogg" src="audio/fondo.mp3" autoplay controls loop muted></audio>
+			</article>
+
+			<!-- Elemento donde se incluye el vídeo de YouTube -->
+			<article id="video1" class="caja">
+				<iframe width="420" height="300"
+					src="https://www.youtube.com/embed/zu9W8AtZy7U?playlist=zu9W8AtZy7U&autoplay=1&mute=1&loop=1"></iframe>
+				<!-- Aquí debes modificar los parámetros del vídeo de YouTube -->
+			</article>
+		</section>
+
+	</main>
+
+</body>
+
+</html>
