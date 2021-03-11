@@ -7,7 +7,7 @@
 
 
 <BorderPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
-   <left>
+   <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="File">
@@ -27,5 +27,5 @@
           </Menu>
         </menus>
       </MenuBar>
-   </left>
+   </top>
 </BorderPane>
