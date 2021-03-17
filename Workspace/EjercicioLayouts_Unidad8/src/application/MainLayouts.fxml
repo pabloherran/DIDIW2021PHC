@@ -3,26 +3,33 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.TilePane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <BorderPane prefHeight="500.0" prefWidth="750.0" BorderPane.alignment="CENTER">
          <top>
@@ -166,21 +173,69 @@
                   <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="90.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <children>
-                        <CheckBox mnemonicParsing="false" text="CheckBox" />
-                        <CheckBox mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox mnemonicParsing="false" text="Java" />
+                        <CheckBox mnemonicParsing="false" text="Electron" />
                      </children>
                   </HBox>
                   <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="70.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="85.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
-                        <RadioButton mnemonicParsing="false" text="RadioButton" />
-                        <RadioButton mnemonicParsing="false" text="RadioButton" />
+                        <RadioButton mnemonicParsing="false" text="Male">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Gendre" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton mnemonicParsing="false" text="Female" toggleGroup="$Gendre" />
                      </children>
                   </HBox>
                   <ListView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ComboBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                </children>
             </GridPane>
          </center>
+         <right>
+            <TilePane alignment="TOP_CENTER" prefColumns="2" prefHeight="440.0" prefRows="2" prefWidth="151.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="71.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Img1.PNG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="71.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Img2.PNG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="71.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Img3.PNG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="71.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Img4.PNG" />
+                     </image>
+                  </ImageView>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets top="15.0" />
+               </BorderPane.margin>
+            </TilePane>
+         </right>
       </BorderPane>
    </center>
+   <bottom>
+      <AnchorPane prefHeight="0.0" prefWidth="750.0" BorderPane.alignment="BOTTOM_RIGHT">
+         <children>
+            <FlowPane alignment="BOTTOM_RIGHT" layoutX="212.0" prefHeight="30.0" prefWidth="539.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+               <children>
+                  <Slider />
+                  <Button mnemonicParsing="false" text="Enviar" />
+               </children>
+            </FlowPane>
+         </children>
+      </AnchorPane>
+   </bottom>
 </BorderPane>
