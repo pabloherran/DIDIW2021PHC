@@ -35,8 +35,8 @@
          <top>
             <HBox prefHeight="60.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #336699;" BorderPane.alignment="CENTER">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="Button" />
-                  <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="Button" />
+                  <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="Current" />
+                  <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="Rejected" />
                   <StackPane prefHeight="150.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#72ade4" height="30.0" stroke="BLACK" strokeType="INSIDE" width="30.0" StackPane.alignment="CENTER_RIGHT">
@@ -169,12 +169,12 @@
                         <Insets left="30.0" />
                      </GridPane.margin>
                   </Label>
-                  <TextField GridPane.columnIndex="1" />
-                  <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField promptText="(Name and surname)" GridPane.columnIndex="1" />
+                  <PasswordField text="123456789" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="90.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <children>
-                        <CheckBox mnemonicParsing="false" text="Java" />
-                        <CheckBox mnemonicParsing="false" text="Electron" />
+                        <CheckBox allowIndeterminate="true" mnemonicParsing="false" text="Java" />
+                        <CheckBox allowIndeterminate="true" mnemonicParsing="false" text="Electron" />
                      </children>
                   </HBox>
                   <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="2" />
@@ -231,8 +231,11 @@
          <children>
             <FlowPane alignment="BOTTOM_RIGHT" layoutX="212.0" prefHeight="30.0" prefWidth="539.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
                <children>
-                  <Slider />
-                  <Button mnemonicParsing="false" text="Enviar" />
+                  <Slider blockIncrement="2.0" majorTickUnit="2.0" max="10.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="5.0" />
+                  <Button defaultButton="true" mnemonicParsing="false" text="Enviar">
+                     <FlowPane.margin>
+                        <Insets left="10.0" />
+                     </FlowPane.margin></Button>
                </children>
             </FlowPane>
          </children>
