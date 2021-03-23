@@ -7,4 +7,8 @@
     <fullyQualifiedTypeName name="javafx.scene.Scene"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.NodeCounterPhase.Stage"/>
     <fullyQualifiedTypeName name="javafx.stage.Stage"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ComboBox"/>
+    <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ChoiceBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Separator"/>
 </qualifiedTypeNameHistroy>
