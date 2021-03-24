@@ -178,17 +178,17 @@
                      </children>
                   </HBox>
                   <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="85.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <ChoiceBox fx:id="location" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <HBox fx:id="gendre" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="85.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
-                        <RadioButton mnemonicParsing="false" text="Male">
+                        <RadioButton fx:id="gender" mnemonicParsing="false" text="Male">
                            <toggleGroup>
                               <ToggleGroup fx:id="Gendre" />
                            </toggleGroup></RadioButton>
-                        <RadioButton mnemonicParsing="false" text="Female" toggleGroup="$Gendre" />
+                        <RadioButton fx:id="gender" mnemonicParsing="false" text="Female" toggleGroup="$Gendre" />
                      </children>
                   </HBox>
-                  <ChoiceBox fx:id="cb" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                  <ListView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ListView fx:id="calificaciones" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                </children>
             </GridPane>
          </center>
