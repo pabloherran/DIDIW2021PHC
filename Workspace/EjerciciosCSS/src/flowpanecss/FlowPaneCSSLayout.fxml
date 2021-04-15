@@ -8,11 +8,11 @@
    <children>
       <Button id="boton1" mnemonicParsing="false" text="Button 1">
          <FlowPane.margin>
-            <Insets right="20.0" top="20.0" />
+            <Insets />
          </FlowPane.margin></Button>
-      <Button mnemonicParsing="false" text="Button 2">
+      <Button id="boton2" mnemonicParsing="false" text="Button 2">
          <FlowPane.margin>
-            <Insets right="10.0" top="-10.0" />
+            <Insets />
          </FlowPane.margin></Button>
       <Button mnemonicParsing="false" text="Button 3" />
       <Button mnemonicParsing="false" text="Button 4" />

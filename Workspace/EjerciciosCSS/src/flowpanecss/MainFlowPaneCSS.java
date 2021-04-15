@@ -14,9 +14,9 @@ public class MainFlowPaneCSS extends Application {
 		try {
 			// Carga el diseño del archivo FXML en la variable rootLayout
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(MainFlowPaneCSS.class.getResource("FlowPaneLayout.fxml"));
+			loader.setLocation(MainFlowPaneCSS.class.getResource("FlowPaneCSSLayout.fxml"));
 			rootLayout = (FlowPane) loader.load();
-			rootLayout.getStylesheets().add("flowpanecss/ejercicio1.css");
+			rootLayout.getStylesheets().add("flowpanecss/Ejercicio1.css");
 
 			// Mostramos la escena del FlowPane de la variable rootLayot
 			Scene scene = new Scene(rootLayout);
