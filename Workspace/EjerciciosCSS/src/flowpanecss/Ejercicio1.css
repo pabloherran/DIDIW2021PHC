@@ -4,8 +4,7 @@
 
 #boton2{
 	-fx-background-radius: 0 ;
-	-fx-border-color:  #F4F4F4;
-	-fx-padding: 0;
+	-fx-background-insets: 5;
 }
 
 FlowPane{
