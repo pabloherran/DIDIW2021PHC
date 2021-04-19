@@ -2,8 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
-    <fullyQualifiedTypeName name="com.sun.glass.ui.Application"/>
-    <fullyQualifiedTypeName name="javafx.scene.layout.BorderPane"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.NodeCounterPhase.Stage"/>
     <fullyQualifiedTypeName name="javafx.scene.control.ComboBox"/>
     <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
@@ -21,4 +19,7 @@
     <fullyQualifiedTypeName name="javafx.scene.layout.FlowPane"/>
     <fullyQualifiedTypeName name="javafx.scene.Scene"/>
     <fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
+    <fullyQualifiedTypeName name="com.sun.glass.ui.Application"/>
+    <fullyQualifiedTypeName name="javafx.application.Application"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.BorderPane"/>
 </qualifiedTypeNameHistroy>
