@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="350.0" prefWidth="900.0" stylesheets="@Ejercicio2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane id="cabecera" prefHeight="75.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox id="subcabecera" alignment="CENTER" layoutX="16.0" layoutY="9.0" prefHeight="54.0" prefWidth="869.0" spacing="450.0">
+               <children>
+                  <Label id="appheader" prefHeight="17.0" prefWidth="251.0" text="Application Header" />
+                  <Label id="account" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="128.0" text="Account" textAlignment="RIGHT" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <VBox id="VBOX" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="208.0" styleClass="item" text="Sidebar item 1" />
+            <Label prefHeight="27.0" prefWidth="198.0" styleClass="item" text="Sidebar item 2" />
+            <Label prefHeight="27.0" prefWidth="207.0" styleClass="item" text="Sidebar item 3" />
+            <Label prefHeight="29.0" prefWidth="199.0" styleClass="item" text="Sidebar item 4" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label id="title" layoutX="14.0" layoutY="6.0" prefHeight="37.0" prefWidth="686.0" text="Content header" />
+            <Label id="texto" layoutX="14.0" layoutY="47.0" prefHeight="151.0" prefWidth="673.0" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." wrapText="true" />
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="50.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label id="pie" alignment="CENTER" prefHeight="52.0" prefWidth="900.0" text="Copiright 2017 CalliCoder" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
